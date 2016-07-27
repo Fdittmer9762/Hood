@@ -3,8 +3,8 @@ using System.Collections;
 
 public class GameStates : MonoBehaviour {
 
-	public enum gameState {Loading, Starting, Playing, End};
+	public enum gameState {Loading, Starting, Playing, GameOver, End};
 
-	public gameState currentGameState;
+	public static gameState currentGameState;
 
 }
