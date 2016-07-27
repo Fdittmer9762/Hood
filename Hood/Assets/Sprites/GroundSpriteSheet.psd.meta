@@ -1,9 +1,39 @@
 fileFormatVersion: 2
 guid: 9f2033583480c614f836111879a58fc9
-timeCreated: 1469592524
-licenseType: Free
+timeCreated: 1469632657
+licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: GroundSpriteSheet_0
+    21300002: GroundSpriteSheet_1
+    21300004: GroundSpriteSheet_2
+    21300006: GroundSpriteSheet_3
+    21300008: GroundSpriteSheet_4
+    21300010: GroundSpriteSheet_5
+    21300012: GroundSpriteSheet_6
+    21300014: GroundSpriteSheet_7
+    21300016: GroundSpriteSheet_8
+    21300018: GroundSpriteSheet_9
+    21300020: GroundSpriteSheet_10
+    21300022: GroundSpriteSheet_11
+    21300024: GroundSpriteSheet_12
+    21300026: GroundSpriteSheet_13
+    21300028: GroundSpriteSheet_14
+    21300030: GroundSpriteSheet_15
+    21300032: GroundSpriteSheet_16
+    21300034: GroundSpriteSheet_17
+    21300036: GroundSpriteSheet_18
+    21300038: GroundSpriteSheet_19
+    21300040: GroundSpriteSheet_20
+    21300042: GroundSpriteSheet_21
+    21300044: GroundSpriteSheet_22
+    21300046: GroundSpriteSheet_23
+    21300048: GroundSpriteSheet_24
+    21300050: GroundSpriteSheet_25
+    21300052: GroundSpriteSheet_26
+    21300054: GroundSpriteSheet_27
+    21300056: GroundSpriteSheet_28
+    21300058: GroundSpriteSheet_29
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,27 +59,729 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: GroundSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -26, y: -32}
+        - {x: -27, y: -29}
+        - {x: -32, y: -29}
+      - - {x: 28, y: -25}
+        - {x: 30, y: -22}
+        - {x: 32, y: -14}
+        - {x: 32, y: -12}
+        - {x: 11, y: 1}
+        - {x: -6, y: 4}
+        - {x: -27, y: 4}
+        - {x: -27, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -25}
+        - {x: 31, y: -24}
+    - name: GroundSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -22}
+        - {x: 32, y: -18}
+        - {x: 32, y: -11}
+        - {x: 3, y: 4}
+        - {x: -29, y: 4}
+        - {x: -29, y: -15}
+        - {x: -26, y: -17}
+        - {x: -26, y: -29}
+        - {x: -25, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -24}
+        - {x: 29, y: -25}
+      - - {x: 8, y: -7}
+        - {x: 9, y: -10}
+        - {x: 14, y: -10}
+        - {x: 16, y: -8}
+        - {x: 15, y: -5}
+        - {x: 10, y: -5}
+      - - {x: 20, y: -7}
+        - {x: 21, y: -10}
+        - {x: 24, y: -10}
+        - {x: 26, y: -8}
+        - {x: 25, y: -5}
+        - {x: 22, y: -5}
+      - - {x: 10, y: 0}
+        - {x: 12, y: -2}
+        - {x: 15, y: -1}
+        - {x: 15, y: 2}
+        - {x: 13, y: 4}
+        - {x: 10, y: 3}
+    - name: GroundSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -28, y: -32}
+        - {x: -28, y: -30}
+        - {x: -31, y: -29}
+        - {x: -32, y: -31}
+      - - {x: 32, y: -22}
+        - {x: 31, y: -17}
+        - {x: 26, y: -4}
+        - {x: 24, y: -1}
+        - {x: 31, y: 5}
+        - {x: 15, y: 19}
+        - {x: -24, y: 19}
+        - {x: -31, y: 14}
+        - {x: -31, y: -9}
+        - {x: -26, y: -21}
+        - {x: -22, y: -22}
+        - {x: -20, y: -22}
+        - {x: -23, y: -22}
+        - {x: -25, y: -24}
+        - {x: -25, y: -29}
+        - {x: -24, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -31}
+        - {x: 29, y: -28}
+        - {x: 32, y: -23}
+    - name: GroundSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -29, y: -32}
+        - {x: -29, y: -26}
+        - {x: -31, y: -24}
+        - {x: -32, y: -24}
+      - - {x: 26, y: -2}
+        - {x: 32, y: 9}
+        - {x: 32, y: 15}
+        - {x: 26, y: 14}
+        - {x: 12, y: 22}
+        - {x: -11, y: 22}
+        - {x: -25, y: 20}
+        - {x: -32, y: 18}
+        - {x: -32, y: -28}
+        - {x: -31, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -9}
+        - {x: 30, y: -5}
+    - name: GroundSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -12}
+        - {x: -26, y: -22}
+        - {x: -26, y: -29}
+        - {x: -25, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -12}
+    - name: GroundSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -14}
+        - {x: 17, y: -18}
+        - {x: 17, y: -15}
+        - {x: 14, y: -11}
+        - {x: -1, y: -11}
+        - {x: -25, y: -20}
+        - {x: -26, y: -24}
+        - {x: -26, y: -31}
+        - {x: -25, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -20}
+        - {x: 30, y: -13}
+    - name: GroundSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 3}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -17}
+        - {x: -3, y: 3}
+      - - {x: -28, y: 25}
+        - {x: -25, y: 26}
+        - {x: -25, y: 29}
+        - {x: -28, y: 30}
+        - {x: -30, y: 28}
+      - - {x: -24, y: 32}
+        - {x: -25, y: 31}
+        - {x: -25, y: 28}
+        - {x: -22, y: 26}
+        - {x: -18, y: 26}
+        - {x: -16, y: 27}
+        - {x: -16, y: 31}
+        - {x: -18, y: 32}
+      - - {x: -13, y: 32}
+        - {x: -16, y: 29}
+        - {x: -15, y: 26}
+        - {x: -9, y: 26}
+        - {x: 32, y: 29}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 5}
+        - {x: -31, y: 4}
+        - {x: -32, y: -12}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -21}
+        - {x: 6, y: 5}
+      - - {x: 11, y: -4}
+        - {x: 12, y: -7}
+        - {x: 17, y: -7}
+        - {x: 19, y: -5}
+        - {x: 18, y: -2}
+        - {x: 13, y: -2}
+      - - {x: 23, y: -4}
+        - {x: 24, y: -7}
+        - {x: 27, y: -7}
+        - {x: 29, y: -5}
+        - {x: 28, y: -2}
+        - {x: 25, y: -2}
+      - - {x: 13, y: 3}
+        - {x: 15, y: 1}
+        - {x: 18, y: 2}
+        - {x: 18, y: 5}
+        - {x: 16, y: 7}
+        - {x: 13, y: 6}
+      - - {x: -32, y: 32}
+        - {x: -32, y: 29}
+        - {x: -23, y: 29}
+        - {x: -21, y: 31}
+        - {x: -21, y: 32}
+    - name: GroundSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -17}
+        - {x: 31, y: -9}
+        - {x: 26, y: 23}
+        - {x: 21, y: 30}
+        - {x: -13, y: 30}
+        - {x: -32, y: 18}
+        - {x: -32, y: -32}
+        - {x: 31, y: -32}
+        - {x: 32, y: -31}
+        - {x: 32, y: -17}
+    - name: GroundSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -21}
+        - {x: 19, y: -24}
+        - {x: 15, y: -19}
+        - {x: 11, y: -18}
+        - {x: 21, y: -19}
+        - {x: 32, y: -18}
+        - {x: 32, y: 9}
+        - {x: 31, y: 13}
+        - {x: 2, y: 28}
+        - {x: -11, y: 28}
+        - {x: -30, y: 16}
+        - {x: -30, y: -15}
+        - {x: -26, y: -24}
+        - {x: -23, y: -24}
+        - {x: -22, y: -21}
+        - {x: -23, y: -17}
+        - {x: -14, y: -17}
+        - {x: -2, y: -22}
+        - {x: -11, y: -20}
+        - {x: -20, y: -21}
+        - {x: -24, y: -24}
+        - {x: -26, y: -24}
+        - {x: -30, y: -23}
+        - {x: -32, y: -24}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -26}
+        - {x: 25, y: -20}
+      - - {x: 15, y: 27}
+        - {x: 14, y: 24}
+        - {x: 24, y: 6}
+        - {x: 26, y: 6}
+        - {x: 28, y: 8}
+        - {x: 27, y: 16}
+        - {x: 25, y: 21}
+        - {x: 18, y: 27}
+    - name: GroundSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -13}
+        - {x: -32, y: -19}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -15}
+        - {x: 28, y: -13}
+    - name: GroundSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -14}
+        - {x: -32, y: -19}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -21}
+        - {x: 24, y: -14}
+    - name: GroundSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -17}
+        - {x: -16, y: -17}
+        - {x: -28, y: -23}
+        - {x: -28, y: -32}
+        - {x: 5, y: -32}
+        - {x: 5, y: -25}
+        - {x: 4, y: -22}
+      - - {x: 7, y: -22}
+        - {x: 7, y: -32}
+        - {x: 18, y: -32}
+        - {x: 18, y: -27}
+        - {x: 13, y: -22}
+      - - {x: 26, y: -19}
+        - {x: 21, y: -19}
+        - {x: 19, y: -22}
+        - {x: 19, y: -29}
+        - {x: 20, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -23}
+        - {x: 28, y: -20}
+    - name: GroundSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 1}
+        - {x: -18, y: 1}
+        - {x: -32, y: -15}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -20}
+        - {x: 30, y: -17}
+    - name: GroundSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -22}
+        - {x: 32, y: -18}
+        - {x: 32, y: -11}
+        - {x: 2, y: 4}
+        - {x: -26, y: 4}
+        - {x: -26, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -24}
+        - {x: 29, y: -25}
+      - - {x: 28, y: 32}
+        - {x: 30, y: 29}
+        - {x: 32, y: 30}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -26}
+        - {x: -32, y: -32}
+        - {x: -21, y: -32}
+        - {x: -20, y: -29}
+        - {x: -20, y: -24}
+        - {x: -23, y: -23}
+      - - {x: -12, y: -19}
+        - {x: -14, y: -21}
+        - {x: -17, y: -31}
+        - {x: -17, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -25}
+        - {x: 24, y: -19}
+      - - {x: -10, y: 30}
+        - {x: -10, y: 32}
+        - {x: -15, y: 32}
+        - {x: -13, y: 29}
+    - name: GroundSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -19}
+        - {x: -31, y: -24}
+        - {x: -32, y: -25}
+        - {x: -32, y: -32}
+        - {x: -2, y: -32}
+        - {x: -1, y: -31}
+        - {x: -1, y: -25}
+        - {x: -3, y: -19}
+      - - {x: 0, y: -29}
+        - {x: 0, y: -32}
+        - {x: 11, y: -32}
+        - {x: 11, y: -25}
+        - {x: 10, y: -22}
+        - {x: 7, y: -22}
+        - {x: 4, y: -23}
+      - - {x: 24, y: -17}
+        - {x: 22, y: -19}
+        - {x: 22, y: -20}
+        - {x: 13, y: -29}
+        - {x: 13, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -24}
+        - {x: 26, y: -17}
+    - name: GroundSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -24}
+        - {x: -32, y: -25}
+        - {x: -32, y: -32}
+        - {x: -17, y: -32}
+        - {x: -17, y: -25}
+        - {x: -18, y: -24}
+      - - {x: 2, y: -32}
+        - {x: 7, y: -32}
+        - {x: 7, y: -29}
+        - {x: 5, y: -27}
+        - {x: 2, y: -28}
+    - name: GroundSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 32}
+        - {x: -29, y: 30}
+        - {x: -26, y: 29}
+        - {x: -32, y: 29}
+        - {x: -32, y: -6}
+        - {x: -31, y: -9}
+        - {x: -16, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: -22, y: -32}
+        - {x: -9, y: 3}
+        - {x: -4, y: 17}
+        - {x: -4, y: 32}
+      - - {x: 0, y: 32}
+        - {x: 0, y: 30}
+        - {x: 2, y: 28}
+        - {x: 5, y: 28}
+        - {x: 7, y: 30}
+        - {x: 7, y: 32}
+    - name: GroundSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 32}
+        - {x: -31, y: 7}
+        - {x: -31, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: GroundSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: -4, y: -32}
+        - {x: -4, y: 6}
     outline: []
   spritePackingTag: 
   userData: 

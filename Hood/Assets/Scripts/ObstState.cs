@@ -5,5 +5,5 @@ public class ObstState : MonoBehaviour {
 
 	public enum obstacleState {inactive, exploding, destroyed, kill};
 
-	public obstacleState currentObstacleState;
+	public obstacleState currentObstacleState = obstacleState.inactive;
 }

@@ -1,9 +1,45 @@
 fileFormatVersion: 2
 guid: 756b8d4818729bf44b9622e9b36f1b06
-timeCreated: 1469592524
-licenseType: Free
+timeCreated: 1469633107
+licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: RedSpriteSheet_0
+    21300002: RedSpriteSheet_1
+    21300004: RedSpriteSheet_2
+    21300006: RedSpriteSheet_3
+    21300008: RedSpriteSheet_4
+    21300010: RedSpriteSheet_5
+    21300012: RedSpriteSheet_6
+    21300014: RedSpriteSheet_7
+    21300016: RedSpriteSheet_8
+    21300018: RedSpriteSheet_9
+    21300020: RedSpriteSheet_10
+    21300022: RedSpriteSheet_11
+    21300024: RedSpriteSheet_12
+    21300026: RedSpriteSheet_13
+    21300028: RedSpriteSheet_14
+    21300030: RedSpriteSheet_15
+    21300032: RedSpriteSheet_16
+    21300034: RedSpriteSheet_17
+    21300036: RedSpriteSheet_18
+    21300038: RedSpriteSheet_21
+    21300040: RedSpriteSheet_22
+    21300042: RedSpriteSheet_24
+    21300044: RedSpriteSheet_25
+    21300046: RedSpriteSheet_26
+    21300048: RedSpriteSheet_27
+    21300050: RedSpriteSheet_28
+    21300052: RedSpriteSheet_29
+    21300054: RedSpriteSheet_30
+    21300056: RedSpriteSheet_31
+    21300058: RedSpriteSheet_32
+    21300060: RedSpriteSheet_33
+    21300062: RedSpriteSheet_34
+    21300064: RedSpriteSheet_36
+    21300066: RedSpriteSheet_37
+    21300068: RedSpriteSheet_38
+    21300070: RedSpriteSheet_39
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,27 +65,1195 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: RedSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 12}
+        - {x: 8, y: 22}
+        - {x: -21, y: 22}
+        - {x: -25, y: 14}
+        - {x: -25, y: -13}
+        - {x: -9, y: -32}
+        - {x: 14, y: -32}
+        - {x: 32, y: -26}
+        - {x: 32, y: -7}
+        - {x: 31, y: 7}
+      - - {x: -24, y: 18}
+        - {x: -26, y: 16}
+        - {x: -26, y: 11}
+        - {x: -24, y: 10}
+        - {x: -18, y: 10}
+        - {x: -18, y: 14}
+        - {x: -20, y: 18}
+    - name: RedSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 13}
+        - {x: -20, y: 11}
+        - {x: -26, y: 3}
+        - {x: -31, y: -4}
+        - {x: -31, y: -12}
+        - {x: -27, y: -21}
+        - {x: -17, y: -32}
+        - {x: 11, y: -32}
+        - {x: 32, y: -26}
+        - {x: 32, y: -18}
+        - {x: 24, y: 9}
+        - {x: -9, y: 23}
+        - {x: -19, y: 23}
+        - {x: -22, y: 18}
+      - - {x: -26, y: 9}
+        - {x: -25, y: 6}
+        - {x: -22, y: 6}
+        - {x: -20, y: 8}
+        - {x: -21, y: 11}
+        - {x: -24, y: 11}
+      - - {x: -32, y: 9}
+        - {x: -31, y: 8}
+        - {x: -28, y: 9}
+        - {x: -28, y: 14}
+        - {x: -30, y: 16}
+        - {x: -32, y: 15}
+    - name: RedSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -24, y: 16}
+        - {x: -27, y: 13}
+        - {x: -26, y: 10}
+        - {x: -24, y: 8}
+        - {x: -32, y: -10}
+        - {x: -32, y: -21}
+        - {x: -23, y: -32}
+        - {x: 29, y: -32}
+        - {x: 29, y: 2}
+        - {x: 27, y: 3}
+      - - {x: -29, y: 8}
+        - {x: -31, y: 6}
+        - {x: -31, y: 2}
+        - {x: -25, y: 2}
+        - {x: -25, y: 7}
+        - {x: -27, y: 8}
+    - name: RedSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -28, y: 16}
+        - {x: -28, y: -21}
+        - {x: -13, y: -32}
+        - {x: 25, y: -32}
+        - {x: 30, y: -31}
+        - {x: 32, y: -28}
+        - {x: 32, y: -14}
+        - {x: 27, y: 5}
+    - name: RedSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 23}
+        - {x: -31, y: 23}
+        - {x: -31, y: -12}
+        - {x: -30, y: -16}
+        - {x: -6, y: -32}
+        - {x: 20, y: -32}
+        - {x: 32, y: -27}
+        - {x: 32, y: -7}
+        - {x: 29, y: 6}
+    - name: RedSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 21}
+        - {x: -19, y: 21}
+        - {x: -31, y: 14}
+        - {x: -31, y: -32}
+        - {x: 21, y: -32}
+        - {x: 29, y: -26}
+        - {x: 31, y: -25}
+        - {x: 31, y: -13}
+        - {x: 15, y: 16}
+      - - {x: -32, y: 18}
+        - {x: -32, y: 7}
+        - {x: -28, y: 4}
+        - {x: -25, y: 5}
+        - {x: -25, y: 16}
+        - {x: -28, y: 18}
+      - - {x: -20, y: 18}
+        - {x: -22, y: 16}
+        - {x: -22, y: 10}
+        - {x: -20, y: 8}
+        - {x: -16, y: 8}
+        - {x: -16, y: 17}
+        - {x: -17, y: 18}
+    - name: RedSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -25}
+        - {x: 29, y: -25}
+        - {x: 29, y: -8}
+        - {x: 26, y: 2}
+        - {x: 6, y: 18}
+        - {x: -32, y: 18}
+        - {x: -32, y: -5}
+        - {x: -17, y: -32}
+        - {x: 17, y: -32}
+        - {x: 18, y: -25}
+        - {x: 14, y: -23}
+      - - {x: 29, y: -1}
+        - {x: 31, y: -3}
+        - {x: 32, y: -3}
+        - {x: 32, y: 2}
+        - {x: 30, y: 2}
+    - name: RedSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -19}
+        - {x: 13, y: -23}
+        - {x: 15, y: -24}
+        - {x: 30, y: -30}
+        - {x: 32, y: -28}
+        - {x: 32, y: -17}
+        - {x: 24, y: 3}
+        - {x: 21, y: 8}
+        - {x: -7, y: 20}
+        - {x: -13, y: 20}
+        - {x: -15, y: 15}
+        - {x: -14, y: 10}
+        - {x: -12, y: 8}
+        - {x: -10, y: 8}
+        - {x: -11, y: 7}
+        - {x: -17, y: 10}
+        - {x: -18, y: 18}
+        - {x: -23, y: 20}
+        - {x: -24, y: 20}
+        - {x: -30, y: 14}
+        - {x: -32, y: 7}
+        - {x: -32, y: -7}
+        - {x: -12, y: -32}
+        - {x: 7, y: -32}
+        - {x: 11, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -16}
+    - name: RedSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 13}
+        - {x: -29, y: 9}
+        - {x: -32, y: -1}
+        - {x: -32, y: -32}
+        - {x: 10, y: -32}
+        - {x: 11, y: -29}
+        - {x: 11, y: 6}
+        - {x: 9, y: 13}
+      - - {x: -2, y: 14}
+        - {x: -5, y: 14}
+        - {x: -16, y: 9}
+        - {x: -16, y: 4}
+        - {x: -12, y: -1}
+        - {x: -7, y: -1}
+        - {x: 0, y: 7}
+        - {x: 0, y: 12}
+      - - {x: -31, y: 4}
+        - {x: -28, y: 6}
+        - {x: -30, y: 11}
+        - {x: -32, y: 11}
+        - {x: -32, y: 5}
+      - - {x: -22, y: 17}
+        - {x: -23, y: 13}
+        - {x: -23, y: 7}
+        - {x: -21, y: 6}
+        - {x: -19, y: 6}
+        - {x: -13, y: 13}
+        - {x: -13, y: 16}
+        - {x: -16, y: 17}
+    - name: RedSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 32}
+        - {x: -29, y: -5}
+        - {x: -29, y: -32}
+        - {x: -4, y: -32}
+        - {x: 14, y: -24}
+        - {x: 14, y: 24}
+        - {x: 7, y: 32}
+      - - {x: -32, y: 19}
+        - {x: -32, y: 5}
+        - {x: -31, y: 5}
+        - {x: -28, y: 8}
+        - {x: -27, y: 17}
+        - {x: -29, y: 19}
+    - name: RedSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -6}
+        - {x: -17, y: -8}
+        - {x: -17, y: -14}
+        - {x: -11, y: -17}
+        - {x: -4, y: -17}
+        - {x: -4, y: -11}
+        - {x: -11, y: -6}
+      - - {x: -3, y: -4}
+        - {x: -4, y: -9}
+        - {x: -4, y: -12}
+        - {x: -2, y: -13}
+        - {x: 1, y: -12}
+        - {x: 3, y: -8}
+        - {x: 3, y: -5}
+        - {x: 1, y: -3}
+      - - {x: -24, y: -5}
+        - {x: -23, y: -6}
+        - {x: -21, y: -6}
+        - {x: -17, y: -2}
+        - {x: -17, y: 5}
+        - {x: -18, y: 6}
+        - {x: -21, y: 8}
+        - {x: -24, y: 7}
+      - - {x: -27, y: 32}
+        - {x: -28, y: 31}
+        - {x: -28, y: 10}
+        - {x: -6, y: -4}
+        - {x: 1, y: -4}
+        - {x: 17, y: 2}
+        - {x: 19, y: 6}
+        - {x: 19, y: 32}
+    - name: RedSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 32}
+        - {x: -31, y: 31}
+        - {x: -31, y: 27}
+        - {x: -24, y: 4}
+        - {x: 0, y: -10}
+        - {x: 15, y: -18}
+        - {x: 29, y: -18}
+        - {x: 32, y: -16}
+        - {x: 32, y: 19}
+        - {x: 16, y: 32}
+      - - {x: -16, y: -7}
+        - {x: -20, y: -11}
+        - {x: -20, y: -15}
+        - {x: -19, y: -17}
+        - {x: -17, y: -17}
+        - {x: -12, y: -13}
+        - {x: -12, y: -9}
+        - {x: -14, y: -7}
+      - - {x: -16, y: 4}
+        - {x: -16, y: -6}
+        - {x: -12, y: -6}
+        - {x: -10, y: -5}
+        - {x: -10, y: 4}
+      - - {x: -29, y: -5}
+        - {x: -26, y: -4}
+        - {x: -26, y: -1}
+        - {x: -29, y: 0}
+        - {x: -31, y: -2}
+      - - {x: -32, y: 9}
+        - {x: -32, y: 2}
+        - {x: -28, y: 2}
+        - {x: -26, y: 3}
+        - {x: -26, y: 7}
+        - {x: -29, y: 9}
+      - - {x: 3, y: 30}
+        - {x: 3, y: 32}
+        - {x: -2, y: 32}
+        - {x: 0, y: 29}
+    - name: RedSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 31}
+        - {x: -28, y: 31}
+        - {x: -32, y: 24}
+        - {x: -32, y: 8}
+        - {x: 8, y: -32}
+        - {x: 18, y: -32}
+        - {x: 31, y: -18}
+        - {x: 31, y: 9}
+      - - {x: -13, y: -10}
+        - {x: -10, y: -9}
+        - {x: -10, y: -6}
+        - {x: -13, y: -5}
+        - {x: -15, y: -7}
+      - - {x: -30, y: 6}
+        - {x: -32, y: 4}
+        - {x: -32, y: -1}
+        - {x: -30, y: -1}
+        - {x: -27, y: 2}
+        - {x: -27, y: 4}
+        - {x: -29, y: 6}
+      - - {x: -29, y: 27}
+        - {x: -28, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: 26}
+    - name: RedSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 9}
+        - {x: -16, y: 9}
+        - {x: -22, y: 8}
+        - {x: -23, y: 4}
+        - {x: -23, y: -8}
+        - {x: -4, y: -24}
+        - {x: 0, y: -21}
+        - {x: 0, y: -17}
+        - {x: 1, y: -23}
+        - {x: 4, y: -32}
+        - {x: 17, y: -32}
+        - {x: 26, y: -30}
+        - {x: 28, y: -17}
+        - {x: 28, y: -8}
+        - {x: 21, y: 3}
+      - - {x: -26, y: 19}
+        - {x: -27, y: 16}
+        - {x: -23, y: 12}
+        - {x: -21, y: 12}
+        - {x: -19, y: 14}
+        - {x: -19, y: 15}
+        - {x: -23, y: 19}
+    - name: RedSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 7}
+        - {x: -26, y: -14}
+        - {x: -14, y: -32}
+        - {x: 18, y: -32}
+        - {x: 32, y: -26}
+        - {x: 32, y: -7}
+        - {x: 28, y: 6}
+        - {x: 9, y: 22}
+        - {x: -5, y: 22}
+        - {x: -18, y: 17}
+    - name: RedSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -29}
+        - {x: 32, y: -7}
+        - {x: 31, y: 2}
+        - {x: 0, y: 16}
+        - {x: -19, y: 16}
+        - {x: -22, y: 13}
+        - {x: -21, y: 10}
+        - {x: -19, y: 8}
+        - {x: -28, y: -12}
+        - {x: -28, y: -20}
+        - {x: -15, y: -32}
+        - {x: 23, y: -32}
+      - - {x: -24, y: 8}
+        - {x: -26, y: 6}
+        - {x: -26, y: 2}
+        - {x: -20, y: 2}
+        - {x: -20, y: 7}
+        - {x: -22, y: 8}
+      - - {x: -30, y: 5}
+        - {x: -27, y: 7}
+        - {x: -30, y: 12}
+        - {x: -32, y: 11}
+        - {x: -32, y: 7}
+    - name: RedSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 13}
+        - {x: -29, y: 9}
+        - {x: -32, y: -1}
+        - {x: -32, y: -32}
+        - {x: 10, y: -32}
+        - {x: 11, y: -29}
+        - {x: 11, y: 6}
+        - {x: 9, y: 13}
+      - - {x: 28, y: -31}
+        - {x: 28, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -28}
+        - {x: 31, y: -28}
+      - - {x: 29, y: -7}
+        - {x: 31, y: -9}
+        - {x: 32, y: -9}
+        - {x: 32, y: -4}
+        - {x: 30, y: -4}
+      - - {x: -2, y: 14}
+        - {x: -5, y: 14}
+        - {x: -16, y: 9}
+        - {x: -16, y: 4}
+        - {x: -12, y: -1}
+        - {x: -7, y: -1}
+        - {x: 0, y: 7}
+        - {x: 0, y: 12}
+      - - {x: -31, y: 4}
+        - {x: -28, y: 6}
+        - {x: -30, y: 11}
+        - {x: -32, y: 11}
+        - {x: -32, y: 5}
+      - - {x: -22, y: 17}
+        - {x: -23, y: 13}
+        - {x: -23, y: 7}
+        - {x: -21, y: 6}
+        - {x: -19, y: 6}
+        - {x: -13, y: 13}
+        - {x: -13, y: 16}
+        - {x: -16, y: 17}
+    - name: RedSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -1}
+        - {x: -32, y: -32}
+        - {x: -1, y: -32}
+        - {x: 1, y: -28}
+        - {x: 1, y: -11}
+        - {x: 0, y: -1}
+      - - {x: 29, y: -5}
+        - {x: 31, y: -7}
+        - {x: 32, y: -7}
+        - {x: 32, y: -2}
+        - {x: 30, y: -2}
+      - - {x: -26, y: -2}
+        - {x: -25, y: -4}
+        - {x: -20, y: -4}
+        - {x: -20, y: 1}
+        - {x: -21, y: 2}
+        - {x: -23, y: 2}
+        - {x: -26, y: -1}
+      - - {x: -19, y: 14}
+        - {x: -21, y: 12}
+        - {x: -21, y: 2}
+        - {x: -19, y: 0}
+        - {x: -15, y: 1}
+        - {x: -13, y: 7}
+        - {x: -13, y: 14}
+      - - {x: -8, y: 4}
+        - {x: -5, y: 1}
+        - {x: -2, y: 3}
+        - {x: -3, y: 7}
+        - {x: -5, y: 9}
+        - {x: -8, y: 8}
+      - - {x: -28, y: 3}
+        - {x: -25, y: 4}
+        - {x: -25, y: 7}
+        - {x: -28, y: 8}
+        - {x: -30, y: 6}
+      - - {x: -12, y: 15}
+        - {x: -13, y: 12}
+        - {x: -13, y: 11}
+        - {x: -11, y: 9}
+        - {x: -7, y: 9}
+        - {x: -6, y: 11}
+        - {x: -6, y: 14}
+        - {x: -8, y: 15}
+    - name: RedSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -1}
+        - {x: -19, y: -4}
+        - {x: -28, y: -7}
+        - {x: -32, y: -8}
+        - {x: -32, y: -32}
+        - {x: 21, y: -32}
+        - {x: 35, y: 5}
+        - {x: 35, y: 13}
+        - {x: 9, y: 13}
+        - {x: -22, y: 6}
+      - - {x: -28, y: 1}
+        - {x: -26, y: -1}
+        - {x: -23, y: 0}
+        - {x: -23, y: 3}
+        - {x: -25, y: 5}
+        - {x: -28, y: 4}
+      - - {x: -9, y: 3}
+        - {x: -7, y: 1}
+        - {x: -4, y: 2}
+        - {x: -4, y: 5}
+        - {x: -6, y: 7}
+        - {x: -9, y: 6}
+      - - {x: -15, y: 10}
+        - {x: -12, y: 11}
+        - {x: -12, y: 14}
+        - {x: -15, y: 15}
+        - {x: -17, y: 13}
+    - name: RedSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 128
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 24}
+        - {x: -32, y: 23}
+        - {x: -32, y: -10}
+        - {x: -18, y: -21}
+        - {x: 42, y: -21}
+        - {x: 49, y: -19}
+        - {x: 54, y: -8}
+        - {x: 54, y: 24}
+    - name: RedSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 128
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 10}
+        - {x: 30, y: -30}
+        - {x: 36, y: -32}
+        - {x: 54, y: -32}
+        - {x: 54, y: -9}
+        - {x: 42, y: 10}
+      - - {x: 4, y: -6}
+        - {x: 5, y: -5}
+        - {x: 18, y: 2}
+        - {x: 30, y: 7}
+        - {x: 34, y: 10}
+        - {x: 34, y: 19}
+        - {x: 32, y: 26}
+        - {x: 28, y: 30}
+        - {x: 16, y: 30}
+        - {x: 13, y: 24}
+        - {x: 6, y: 22}
+        - {x: 12, y: 25}
+        - {x: 14, y: 27}
+        - {x: 14, y: 30}
+        - {x: 0, y: 30}
+        - {x: -23, y: 25}
+        - {x: -32, y: 9}
+        - {x: -32, y: -2}
+        - {x: -29, y: -9}
+        - {x: -27, y: -14}
+        - {x: -18, y: -15}
+        - {x: 15, y: -15}
+        - {x: 17, y: -11}
+        - {x: 14, y: -3}
+        - {x: 8, y: -4}
+      - - {x: -32, y: 21}
+        - {x: -32, y: 10}
+        - {x: -29, y: 10}
+        - {x: -28, y: 11}
+        - {x: -28, y: 19}
+        - {x: -29, y: 21}
+    - name: RedSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -8}
+        - {x: -9, y: -8}
+        - {x: -21, y: -11}
+        - {x: -24, y: -12}
+        - {x: -24, y: -20}
+        - {x: -16, y: -29}
+        - {x: -13, y: -32}
+        - {x: 17, y: -32}
+        - {x: 22, y: -27}
+        - {x: 27, y: -19}
+        - {x: 27, y: -13}
+      - - {x: -24, y: -8}
+        - {x: -21, y: -7}
+        - {x: -21, y: -4}
+        - {x: -24, y: -3}
+        - {x: -26, y: -5}
+      - - {x: -29, y: -6}
+        - {x: -29, y: -3}
+        - {x: -32, y: -2}
+        - {x: -32, y: -7}
+    - name: RedSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 7}
+        - {x: 1, y: 2}
+        - {x: -3, y: -2}
+        - {x: -22, y: -17}
+        - {x: -22, y: -23}
+        - {x: -5, y: -23}
+        - {x: 16, y: -13}
+        - {x: 27, y: 2}
+        - {x: 27, y: 7}
+      - - {x: -32, y: -5}
+        - {x: -31, y: -6}
+        - {x: -28, y: -5}
+        - {x: -28, y: -2}
+        - {x: -30, y: 0}
+        - {x: -32, y: -1}
+    - name: RedSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -16}
+        - {x: -24, y: -18}
+        - {x: -21, y: -17}
+        - {x: -20, y: -12}
+        - {x: -23, y: -10}
+        - {x: -26, y: -13}
+      - - {x: -11, y: 5}
+        - {x: -14, y: 5}
+        - {x: -18, y: 0}
+        - {x: -20, y: -5}
+        - {x: -18, y: -7}
+        - {x: -17, y: -7}
+        - {x: -9, y: 1}
+        - {x: -9, y: 4}
+      - - {x: -32, y: -4}
+        - {x: -31, y: -5}
+        - {x: -28, y: -4}
+        - {x: -28, y: -1}
+        - {x: -31, y: 0}
+        - {x: -32, y: -1}
+      - - {x: -9, y: 5}
+        - {x: -7, y: 1}
+        - {x: 19, y: -3}
+        - {x: 28, y: -3}
+        - {x: 28, y: 2}
+        - {x: 22, y: 14}
+        - {x: -3, y: 14}
+        - {x: -9, y: 12}
+    - name: RedSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -3}
+        - {x: 7, y: -10}
+        - {x: 9, y: -13}
+        - {x: 24, y: -13}
+        - {x: 27, y: -12}
+        - {x: 27, y: -3}
+      - - {x: -6, y: 3}
+        - {x: -11, y: 3}
+        - {x: -13, y: 1}
+        - {x: -12, y: -2}
+        - {x: -6, y: -6}
+        - {x: -2, y: -6}
+        - {x: 0, y: -4}
+        - {x: 0, y: 0}
+      - - {x: -24, y: 12}
+        - {x: -25, y: 10}
+        - {x: -25, y: 8}
+        - {x: -20, y: 1}
+        - {x: -13, y: 1}
+        - {x: -13, y: 5}
+        - {x: -21, y: 12}
+    - name: RedSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -11}
+        - {x: -27, y: -16}
+        - {x: -24, y: -15}
+        - {x: -24, y: -12}
+        - {x: -25, y: -7}
+        - {x: -29, y: -5}
+        - {x: -32, y: -5}
+      - - {x: 13, y: 4}
+        - {x: -26, y: 4}
+        - {x: -26, y: -2}
+        - {x: -17, y: -7}
+        - {x: 20, y: -7}
+        - {x: 29, y: -4}
+        - {x: 29, y: -2}
+        - {x: 28, y: 3}
+    - name: RedSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 4}
+        - {x: -23, y: -3}
+        - {x: -23, y: -8}
+        - {x: 22, y: -8}
+        - {x: 22, y: 2}
+        - {x: 14, y: 4}
+    - name: RedSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -6}
+        - {x: -20, y: -9}
+        - {x: -8, y: -9}
+        - {x: 3, y: -6}
+        - {x: 3, y: 2}
+        - {x: -21, y: 2}
+    - name: RedSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 2}
+        - {x: -26, y: -1}
+        - {x: -26, y: -9}
+        - {x: -9, y: -9}
+        - {x: -3, y: -6}
+        - {x: -3, y: 1}
+        - {x: -7, y: 2}
+    - name: RedSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 7}
+        - {x: -28, y: 3}
+        - {x: -28, y: -8}
+        - {x: -24, y: -11}
+        - {x: -22, y: -12}
+        - {x: -4, y: -12}
+        - {x: 1, y: -11}
+        - {x: 1, y: 2}
+        - {x: -3, y: 7}
+      - - {x: -12, y: 32}
+        - {x: -11, y: 29}
+        - {x: 11, y: 29}
+        - {x: 13, y: 31}
+        - {x: 13, y: 32}
+    - name: RedSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -4}
+        - {x: -30, y: -12}
+        - {x: -28, y: -14}
+        - {x: 0, y: -14}
+        - {x: 4, y: -12}
+        - {x: 4, y: 2}
+        - {x: 1, y: 6}
+        - {x: -6, y: 7}
+        - {x: -22, y: 7}
+        - {x: -29, y: 1}
+      - - {x: 7, y: -2}
+        - {x: 8, y: -5}
+        - {x: 13, y: -5}
+        - {x: 15, y: -3}
+        - {x: 14, y: 0}
+        - {x: 9, y: 0}
+      - - {x: 19, y: -2}
+        - {x: 20, y: -5}
+        - {x: 23, y: -5}
+        - {x: 25, y: -3}
+        - {x: 24, y: 0}
+        - {x: 21, y: 0}
+      - - {x: 9, y: 5}
+        - {x: 11, y: 3}
+        - {x: 14, y: 4}
+        - {x: 14, y: 7}
+        - {x: 12, y: 9}
+        - {x: 9, y: 8}
+      - - {x: -32, y: 32}
+        - {x: -32, y: 29}
+        - {x: -29, y: 29}
+        - {x: -27, y: 31}
+        - {x: -27, y: 32}
+    - name: RedSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 17}
+        - {x: 25, y: 29}
+        - {x: -13, y: 29}
+        - {x: -31, y: 18}
+        - {x: -31, y: -24}
+        - {x: -18, y: -31}
+        - {x: 37, y: -31}
+        - {x: 56, y: -12}
+        - {x: 61, y: 1}
+      - - {x: 93, y: 8}
+        - {x: 95, y: 6}
+        - {x: 96, y: 6}
+        - {x: 96, y: 16}
+        - {x: 93, y: 15}
+      - - {x: 25, y: 9}
+        - {x: 28, y: 10}
+        - {x: 28, y: 13}
+        - {x: 25, y: 14}
+        - {x: 23, y: 12}
+      - - {x: 92, y: 30}
+        - {x: 92, y: 32}
+        - {x: 87, y: 32}
+        - {x: 89, y: 29}
+    - name: RedSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -15}
+        - {x: -5, y: -18}
+        - {x: 2, y: -18}
+        - {x: 15, y: -13}
+        - {x: 15, y: -8}
+        - {x: 10, y: -8}
+        - {x: -6, y: -11}
+        - {x: -7, y: -14}
+      - - {x: 24, y: 19}
+        - {x: 9, y: 22}
+        - {x: -5, y: 27}
+        - {x: -20, y: 28}
+        - {x: -29, y: 28}
+        - {x: -32, y: 25}
+        - {x: -32, y: 4}
+        - {x: -12, y: -13}
+        - {x: 32, y: -13}
+        - {x: 32, y: 8}
+        - {x: 31, y: 9}
+      - - {x: -31, y: 15}
+        - {x: -32, y: 13}
+        - {x: -32, y: 6}
+        - {x: -29, y: 5}
+        - {x: -25, y: 5}
+        - {x: -22, y: 11}
+        - {x: -22, y: 15}
+    - name: RedSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 31}
+        - {x: -26, y: 31}
+        - {x: -31, y: 21}
+        - {x: -31, y: 10}
+        - {x: -19, y: -2}
+        - {x: -16, y: -2}
+        - {x: -13, y: -1}
+        - {x: -12, y: 2}
+        - {x: -9, y: 2}
+        - {x: -11, y: 2}
+        - {x: -14, y: -2}
+        - {x: -15, y: -9}
+        - {x: 9, y: -32}
+        - {x: 28, y: -32}
+        - {x: 32, y: -22}
+        - {x: 32, y: 15}
+        - {x: 9, y: 28}
+      - - {x: -29, y: -12}
+        - {x: -29, y: -9}
+        - {x: -32, y: -8}
+        - {x: -32, y: -13}
+      - - {x: -12, y: -10}
+        - {x: -9, y: -9}
+        - {x: -9, y: -6}
+        - {x: -12, y: -5}
+        - {x: -14, y: -7}
+      - - {x: -29, y: 6}
+        - {x: -32, y: 4}
+        - {x: -32, y: -1}
+        - {x: -29, y: -1}
+        - {x: -26, y: 2}
+        - {x: -26, y: 4}
+        - {x: -28, y: 6}
+      - - {x: -31, y: 26}
+        - {x: -28, y: 27}
+        - {x: -27, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: 27}
+    - name: RedSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 9}
+        - {x: -17, y: 9}
+        - {x: -23, y: 8}
+        - {x: -24, y: 4}
+        - {x: -24, y: -8}
+        - {x: -5, y: -24}
+        - {x: -1, y: -21}
+        - {x: -1, y: -17}
+        - {x: 0, y: -23}
+        - {x: 3, y: -32}
+        - {x: 16, y: -32}
+        - {x: 25, y: -30}
+        - {x: 27, y: -17}
+        - {x: 27, y: -8}
+        - {x: 20, y: 3}
+      - - {x: -27, y: 19}
+        - {x: -28, y: 16}
+        - {x: -24, y: 12}
+        - {x: -22, y: 12}
+        - {x: -20, y: 14}
+        - {x: -20, y: 15}
+        - {x: -24, y: 19}
+    - name: RedSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 7}
+        - {x: -26, y: -14}
+        - {x: -14, y: -32}
+        - {x: 18, y: -32}
+        - {x: 32, y: -26}
+        - {x: 32, y: -7}
+        - {x: 28, y: 6}
+        - {x: 9, y: 22}
+        - {x: -5, y: 22}
+        - {x: -18, y: 17}
     outline: []
   spritePackingTag: 
   userData: 
