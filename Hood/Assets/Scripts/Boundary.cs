@@ -3,9 +3,10 @@ using System.Collections;
 
 public class Boundary : MonoBehaviour {
 
-	void OnColliderEnter (Collider other){
+	void OnTriggerExit (Collider other){
 		//destroys objects that leave the boundarys
-		DestroyObject (other.gameObject);
+		Destroy (other.gameObject);
+		//other.gameObject.SetActive = false;
 	}
 
 }
