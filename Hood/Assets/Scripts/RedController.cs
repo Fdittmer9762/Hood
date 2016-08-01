@@ -3,7 +3,20 @@ using System.Collections;
 
 public class RedController : MonoBehaviour {
 
+	public Vector3 redPosition;
+	public GameObject bolt;
+	public Transform boltSpawn;
 	public int health;
+	public float waitTime = .1f;
+
+	IEnumerator Attack () {
+		//call attack animation, will add later
+		//wait for time allows animation to align
+		yield return new WaitForSeconds(waitTime);
+		//spawn firebolt, should work, not sure what the issue is...
+		//Instantiate (bolt, boltSpawn.position, boltSpawn.transform);
+		//set state to running
+	}
 
 	void Update () {
 		switch (RedStates.currentRedState) {
@@ -21,9 +34,7 @@ public class RedController : MonoBehaviour {
 			//stop player from falling, set redstate to landing, 
 			break;
 		case RedStates.redState.Attacking:
-			//attack coroutine, using coroutine due to waitfor and other benifits
-			//attack coruotine: start attack animation, wait for x time, spawn fire bolt, 
-			//after coroutine set animation 
+			//attack coroutine
 			break;
 		case RedStates.redState.Damage:
 			//decrement health, check health, if health is gone kill player
@@ -37,6 +48,9 @@ public class RedController : MonoBehaviour {
 			break;
 		case RedStates.redState.Death:
 			GameStates.currentGameState = GameStates.gameState.GameOver;
+			break;
+		default:
+			RedStates.currentRedState = RedStates.redState.Running;
 			break;
 		}
 	}
