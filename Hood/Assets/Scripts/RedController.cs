@@ -4,10 +4,12 @@ using System.Collections;
 public class RedController : MonoBehaviour {
 
 	public Transform redPosition;
+	public int health;
+
 	public GameObject bolt;
 	public Transform boltSpawn;
-	public int health;
 	public float waitTime = .1f;
+
 	public float jump;
 	public float jumpLimit = 2f;
 	bool jumpPress = Input.GetKey("Jump");
@@ -43,6 +45,8 @@ public class RedController : MonoBehaviour {
 			break;
 		case RedStates.redState.Landing:
 			//stop player from falling, set redstate to landing, 
+			//play landing animation
+			//set state to running after anim has finished
 			break;
 		case RedStates.redState.Attacking:
 			StartCoroutine("Attack"); //attack coroutine
