@@ -3,17 +3,21 @@ using System.Collections;
 
 public class RedController : MonoBehaviour {
 
-	public Transform redPosition;
+	public Rigidbody redRB;
 	public int health;
 
 	public GameObject bolt;
 	public Transform boltSpawn;
 	public float waitTime = .1f;
 
-	public float jump;
+	public float jumpForce= .1f;
 	public float jumpLimit = 2f;
 	bool jumpPress = Input.GetKey("Jump");
 	bool jumpHeld= Input.GetKey("Jump");
+
+	void start (){
+		redRB = GetComponent<Rigidbody> ();
+	}
 
 	IEnumerator Attack () {
 		//call attack animation, will add later
@@ -32,21 +36,21 @@ public class RedController : MonoBehaviour {
 			//default state, play the running animation
 			break;
 		case RedStates.redState.Jumping:
-			while (jumpPress == true /*&& player height is less than */ ){ 	//while the state is jump (player is holding jump) move the player up
-				//move player up
+			while (jumpPress == true /*&& player height is less than the jump limit */ ){ 	//while the state is jump (player is holding jump) move the player up
+				redRB.AddForce(transform.forward * jumpForce); //move player up
 			}
 			RedStates.currentRedState = RedStates.redState.Falling; //when the height reaches the limit switch to falling
 			break;
 		case RedStates.redState.Falling:
-			//play animation for falling
+			//play animation for falling, falling will be handled by the rigidbody
 			if (/*player hits the ground, stops moving down*/) {
 				RedStates.currentRedState = RedStates.redState.Landing; //change to landing
 			}
 			break;
-		case RedStates.redState.Landing:
-			//stop player from falling, set redstate to landing, 
+		case RedStates.redState.Landing://may want to rework into a coroutine
+			//stop player from falling,
 			//play landing animation
-			//set state to running after anim has finished
+			RedStates.currentRedState = RedStates.redState.Running; //set state to running after anim has finished
 			break;
 		case RedStates.redState.Attacking:
 			StartCoroutine("Attack"); //attack coroutine
@@ -65,6 +69,7 @@ public class RedController : MonoBehaviour {
 			break;
 		default:
 			RedStates.currentRedState = RedStates.redState.Running;
+			Debug.Log("default"); //used for debuging, remove later
 			break;
 		}
 	}
