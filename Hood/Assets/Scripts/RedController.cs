@@ -4,7 +4,7 @@ using System.Collections;
 public class RedController : MonoBehaviour {
 
 	public Rigidbody redRB;
-	public int health;
+	public int health = 3;
 
 	public GameObject bolt;
 	public Transform boltSpawn;
@@ -22,12 +22,14 @@ public class RedController : MonoBehaviour {
 	IEnumerator Attack () {
 		//call attack animation, will add later
 		yield return new WaitForSeconds(waitTime); 	//wait for time allows animation to align
-		Instantiate (bolt, boltSpawn.position, boltSpawn.transform); //spawn firebolt, should work, not sure what the issue is...
+		//Instantiate (bolt, boltSpawn.position, boltSpawn.transform); //spawn firebolt, should work, not sure what the issue is...
 		//RedStates.currentRedState= RedStates.redState.Running; //set state to running
 	}
 
 	void OnMouseDown (){
 		//use for testing states, for now
+		RedStates.currentRedState = RedStates.redState.Damage;
+		Debug.Log ("click" + RedStates.currentRedState);
 	}
 
 	void Update () {
@@ -36,19 +38,14 @@ public class RedController : MonoBehaviour {
 			//default state, play the running animation
 			break;
 		case RedStates.redState.Jumping:
-			while (jumpPress == true /*&& player height is less than the jump limit */ ){ 	//while the state is jump (player is holding jump) move the player up
-				redRB.AddForce(transform.forward * jumpForce); //move player up
-			}
+			//unable to test if a button is pushed within a case, may also be an issue with while loop
 			RedStates.currentRedState = RedStates.redState.Falling; //when the height reaches the limit switch to falling
 			break;
 		case RedStates.redState.Falling:
-			//play animation for falling, falling will be handled by the rigidbody
-			if (/*player hits the ground, stops moving down*/) {
-				RedStates.currentRedState = RedStates.redState.Landing; //change to landing
-			}
+			//reworking
 			break;
 		case RedStates.redState.Landing://may want to rework into a coroutine
-			//stop player from falling,
+			//stop player from falling, may no longer need
 			//play landing animation
 			RedStates.currentRedState = RedStates.redState.Running; //set state to running after anim has finished
 			break;
@@ -56,9 +53,9 @@ public class RedController : MonoBehaviour {
 			StartCoroutine("Attack"); //attack coroutine
 			break;
 		case RedStates.redState.Damage: //decrement health, check health, if health is gone kill player
-			if (health < 0) {
+			if (health > 1) {
 				health--;
-				print ("Health: " + health); //to check functionallity, will replace with gui
+				Debug.Log ("Health: " + health); //to check functionallity, will replace with gui
 				RedStates.currentRedState = RedStates.redState.Running;
 			} else {
 				RedStates.currentRedState = RedStates.redState.Death;
@@ -66,6 +63,9 @@ public class RedController : MonoBehaviour {
 			break;
 		case RedStates.redState.Death:
 			GameStates.currentGameState = GameStates.gameState.GameOver;
+			Debug.Log ("Ashes to ashes");// for debuging
+			//play death animation
+			this.gameObject.SetActive (false); //destroy the player
 			break;
 		default:
 			RedStates.currentRedState = RedStates.redState.Running;
@@ -74,3 +74,17 @@ public class RedController : MonoBehaviour {
 		}
 	}
 }
+
+
+//case RedStates.redState.Jumping:
+//while (jumpPress == true /*&& player height is less than the jump limit */ ){ 	//while the state is jump (player is holding jump) move the player up
+//	redRB.AddForce(transform.forward * jumpForce); //move player up
+//}
+//RedStates.currentRedState = RedStates.redState.Falling; //when the height reaches the limit switch to falling
+//break;
+//case RedStates.redState.Falling:
+//play animation for falling, falling will be handled by the rigidbody
+/*if (/*player hits the ground, stops moving down) {
+//				RedStates.currentRedState = RedStates.redState.Landing; //change to landing
+//			}*/
+//break;

@@ -10,22 +10,21 @@ public class ObstController : MonoBehaviour {
 	}
 	//had to take it from the delay script, wasn't able to implament it from there, try to fix later
 
-	void OnTriggerEnter (GameObject other) {
-		/*if (other.tag == Player) {
-			//set player state to death
-			RedStates.currentRedState = RedStates.redState.Death;
+	void OnTriggerEnter (Collider other) {
+		if (other.tag == "Player") {
+			RedStates.currentRedState = RedStates.redState.Damage;//damage player
+			Debug.Log ("PlayerHit");
 			//stop the world from moving, still need to figure that out
-			//change game state to game over
-			GameStates.currentGameState= GameStates.gameState.GameOver;
+			//GameStates.currentGameState= GameStates.gameState.GameOver;	//**called through the player**
 		}
-		if (other.tag == Bolt) {
-			//set state to explode
-			ObstState.currentObstacleState = ObstState.obstacleState.exploding;
-			//let animation run, try to use coroutine
-			TimeDelay (explosionTime);
-			//set state to destroyed
-			ObstState.currentObstacleState = ObstState.obstacleState.destroyed;
-		}*/
+		if (other.tag == "Bolt") {
+			ObstState.currentObstacleState = ObstState.obstacleState.exploding; //set state to explode
+			TimeDelay (explosionTime);	//let animation run, try to use coroutine
+			ObstState.currentObstacleState = ObstState.obstacleState.destroyed; //set state to destroyed
+		}
 	}
-		//**deleted** handled by boundary script
+
+	void Update (){
+		
+	}
 }
