@@ -21,7 +21,7 @@ public class RedController : MonoBehaviour {
 
 	void Fire(){ //use for testing until animation is added
 		Debug.Log ("fire!");//debugging
-		//Instantiate(bolt, boltSpawn.position, boltSpawn.transform);
+		Instantiate(bolt, boltSpawn.position, Quaternion.identity);
 	}
 
 	IEnumerator Attack () {
@@ -69,7 +69,7 @@ public class RedController : MonoBehaviour {
 			GameStates.currentGameState = GameStates.gameState.GameOver;
 			Debug.Log ("Ashes to ashes");// for debuging
 			//play death animation
-			this.gameObject.SetActive (false); //destroy the player
+			this.gameObject.SetActive (false); //destroy the player, remove later
 			break;
 		default:
 			RedStates.currentRedState = RedStates.redState.Running;

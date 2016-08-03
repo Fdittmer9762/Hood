@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 756b8d4818729bf44b9622e9b36f1b06
-timeCreated: 1470238403
+timeCreated: 1470241965
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -983,16 +983,16 @@ TextureImporter:
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.3, y: 0.49999976}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21, y: -6}
-        - {x: -20, y: -9}
-        - {x: -8, y: -9}
-        - {x: 3, y: -6}
-        - {x: 3, y: 2}
-        - {x: -21, y: 2}
+      - - {x: -8.199997, y: -5.9999847}
+        - {x: -7.199997, y: -8.999985}
+        - {x: 4.800003, y: -8.999985}
+        - {x: 15.800003, y: -5.9999847}
+        - {x: 15.800003, y: 2.0000153}
+        - {x: -8.199997, y: 2.0000153}
     - name: RedSpriteSheet_31
       rect:
         serializedVersion: 2
@@ -1000,17 +1000,17 @@ TextureImporter:
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.3, y: 0.49999976}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -22, y: 2}
-        - {x: -26, y: -1}
-        - {x: -26, y: -9}
-        - {x: -9, y: -9}
-        - {x: -3, y: -6}
-        - {x: -3, y: 1}
-        - {x: -7, y: 2}
+      - - {x: -9.199997, y: 2.0000153}
+        - {x: -13.199997, y: -0.99998474}
+        - {x: -13.199997, y: -8.999985}
+        - {x: 3.800003, y: -8.999985}
+        - {x: 9.800003, y: -5.9999847}
+        - {x: 9.800003, y: 1.0000153}
+        - {x: 5.800003, y: 2.0000153}
     - name: RedSpriteSheet_32
       rect:
         serializedVersion: 2
