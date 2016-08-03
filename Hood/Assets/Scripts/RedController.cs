@@ -19,6 +19,11 @@ public class RedController : MonoBehaviour {
 		redRB = GetComponent<Rigidbody> ();
 	}
 
+	void Fire(){
+		Debug.Log ("fire!");//debugging
+		//Instantiate(bolt, boltSpawn.position, boltSpawn.transform);
+	}
+
 	IEnumerator Attack () {
 		//call attack animation, will add later
 		yield return new WaitForSeconds(waitTime); 	//wait for time allows animation to align
@@ -28,8 +33,7 @@ public class RedController : MonoBehaviour {
 
 	void OnMouseDown (){
 		//use for testing states, for now
-		RedStates.currentRedState = RedStates.redState.Damage;
-		Debug.Log ("click" + RedStates.currentRedState);
+		Fire();
 	}
 
 	void Update () {

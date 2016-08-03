@@ -3,8 +3,6 @@ using System.Collections;
 
 public class ObstController : MonoBehaviour {
 
-	public int explosionTime;
-
 	IEnumerator TimeDelay (int time) {
 		yield return new WaitForSeconds(time);
 	}
@@ -13,18 +11,16 @@ public class ObstController : MonoBehaviour {
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player") {
 			RedStates.currentRedState = RedStates.redState.Damage;//damage player
-			Debug.Log ("PlayerHit");
-			//stop the world from moving, still need to figure that out
-			//GameStates.currentGameState= GameStates.gameState.GameOver;	//**called through the player**
+			//Debug.Log ("PlayerHit"); //for debugging
+			//**death and game over are called through the player**
 		}
 		if (other.tag == "Bolt") {
 			ObstState.currentObstacleState = ObstState.obstacleState.exploding; //set state to explode
-			TimeDelay (explosionTime);	//let animation run, try to use coroutine
-			ObstState.currentObstacleState = ObstState.obstacleState.destroyed; //set state to destroyed
+			Debug.Log ("bolt");
+			//this.collider.setactive (false); //disable the collider, so it dosent kill the player after being destroyed, having issues
+			//play explosion and let it automatically go to the smoldering animation
+			//add points to score, still need to add to game controller
+			//ObstState.currentObstacleState = ObstState.obstacleState.destroyed; //set state to destroyed, may no longer need
 		}
-	}
-
-	void Update (){
-		
 	}
 }
