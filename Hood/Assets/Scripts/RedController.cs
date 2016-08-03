@@ -13,13 +13,13 @@ public class RedController : MonoBehaviour {
 	public float jumpForce= .1f;
 	public float jumpLimit = 2f;
 	bool jumpPress = Input.GetKey("Jump");
-	bool jumpHeld= Input.GetKey("Jump");
+	//bool jumpHeld= Input.GetKey("Jump");
 
 	void start (){
 		redRB = GetComponent<Rigidbody> ();
 	}
 
-	void Fire(){
+	void Fire(){ //use for testing until animation is added
 		Debug.Log ("fire!");//debugging
 		//Instantiate(bolt, boltSpawn.position, boltSpawn.transform);
 	}

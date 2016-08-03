@@ -11,12 +11,13 @@ public class ObstController : MonoBehaviour {
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player") {
 			RedStates.currentRedState = RedStates.redState.Damage;//damage player
-			//Debug.Log ("PlayerHit"); //for debugging
+			Debug.Log ("PlayerHit"); //for debugging
 			//**death and game over are called through the player**
 		}
 		if (other.tag == "Bolt") {
 			ObstState.currentObstacleState = ObstState.obstacleState.exploding; //set state to explode
-			Debug.Log ("bolt");
+			Debug.Log ("Hit Bolt");
+			//this.gameObject.collider.SetActive (false);
 			//this.collider.setactive (false); //disable the collider, so it dosent kill the player after being destroyed, having issues
 			//play explosion and let it automatically go to the smoldering animation
 			//add points to score, still need to add to game controller
