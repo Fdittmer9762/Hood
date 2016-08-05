@@ -42,7 +42,7 @@ public class RedController : MonoBehaviour {
 			//default state, play the running animation
 			break;
 		case RedStates.redState.Jumping:
-			//unable to test if a button is pushed within a case, may also be an issue with while loop
+			
 			RedStates.currentRedState = RedStates.redState.Falling; //when the height reaches the limit switch to falling
 			break;
 		case RedStates.redState.Falling:
