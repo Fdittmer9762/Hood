@@ -15,26 +15,10 @@ public class RedController : MonoBehaviour {
 	bool jumpPress = Input.GetKey("Jump");
 	//bool jumpHeld= Input.GetKey("Jump");
 
-	void start (){
+	/*void start (){
 		redRB = GetComponent<Rigidbody> ();
-	}
-
-	void Fire(){ //use for testing until animation is added
-		Debug.Log ("fire!");//debugging
-		Instantiate(bolt, boltSpawn.position, Quaternion.identity);
-	}
-
-	IEnumerator Attack () {
-		//call attack animation, will add later
-		yield return new WaitForSeconds(waitTime); 	//wait for time allows animation to align
-		//Instantiate (bolt, boltSpawn.position, boltSpawn.transform); //spawn firebolt, should work, not sure what the issue is...
-		//RedStates.currentRedState= RedStates.redState.Running; //set state to running
-	}
-
-	void OnMouseDown (){
-		//use for testing states, for now
-		Fire();
-	}
+	}*/
+		
 
 	void Update () {
 		switch (RedStates.currentRedState) {
