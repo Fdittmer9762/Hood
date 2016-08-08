@@ -7,7 +7,7 @@ public class Deactivate : MonoBehaviour {
 		this.gameObject.SetActive (true);
 	}
 
-	public void OnColliderEnter(){
+	public void OnTriggerEnter(){
 		this.gameObject.SetActive (false);
 	}
 
