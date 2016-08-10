@@ -3,10 +3,16 @@ using System.Collections;
 
 public class ObstController : MonoBehaviour {
 
+	public Collider obsCollider;
+
 	IEnumerator TimeDelay (int time) {
 		yield return new WaitForSeconds(time);
 	}
 	//had to take it from the delay script, wasn't able to implament it from there, try to fix later
+
+	void Start (){
+		obsCollider = GetComponent<Collider> ();
+	}
 
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player") {
@@ -17,11 +23,9 @@ public class ObstController : MonoBehaviour {
 		if (other.tag == "Bolt") {
 			ObstState.currentObstacleState = ObstState.obstacleState.exploding; //set state to explode
 			Debug.Log ("Hit Bolt");
-			//this.gameObject.collider.SetActive (false);
-			//this.collider.setactive (false); //disable the collider, so it dosent kill the player after being destroyed, having issues
+			obsCollider.enabled=false; //disable the collider, so it dosent kill the player after being destroyed, having issues
 			//play explosion and let it automatically go to the smoldering animation
 			//add points to score, still need to add to game controller
-			//ObstState.currentObstacleState = ObstState.obstacleState.destroyed; //set state to destroyed, may no longer need
 		}
 	}
 }
